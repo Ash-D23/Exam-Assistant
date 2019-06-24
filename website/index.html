@@ -1,0 +1,110 @@
+<html>
+  <head><title>Exam Assistant - Polly Study Notes Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  </head>
+
+
+  <body>
+
+    <header>
+      <div class="collapse back" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">About Me</h4>
+              <p class="text-white">I am a full stack developer(MERN Stack) with interest in Cloud Computing and Machine Learning.I am always trying to learn new technologies currently pursuing my Bachelor's Degree in CSE</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contact</h4>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white">Follow on Github</a></li>
+                <li><a href="#" class="text-white">Linkedin</a></li>
+                <li><a href="#" class="text-white">Portfolio</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark back shadow-sm">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+
+            <strong>Exam Assistant</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section class="jumbotron jum text-center " style="margin-bottom: 0px;">
+   <div class="container">
+     <h1 class="jumbotron-heading">Exam Assistant</h1>
+     <p class="lead text-red">This a Serverless Cloud Computing Project to Generate MP3 Audio of Exam Notes using Amazon Web Services Polly, Lambda, S3 and DynamoDB Services</p>
+
+   </div>
+ </section>
+
+    <div id="content">
+    <div class="f gradient-border" id="box">
+
+      <h4 class="jumbotron-heading">Enter The Details : </h1>
+        <br  />
+      <label for="tval">Enter Title:</label>
+      <input type="text" id="tval" />
+    <div class="t">
+      Enter Notes:
+
+      <textarea id ="postText"></textarea>
+      <span id="charCounter">Characters: 0</span>
+    </div>
+
+
+    <br />
+      <input type="submit" value="Say it!" id="sayButton" class="buttons">
+    </div>
+
+
+    </br></br></br></br>
+      Provide Title for which you want to retrieve: <input type="text" id="postId"> <input type="submit" class="buttons" value="Search" id="searchButton">
+      <br/>
+    </div>
+
+
+    <table id="post">
+      <colgroup>
+        <col style="width:20%">
+        <col style="width:20%">
+        <col style="width:60%">
+
+      </colgroup>
+      <tbody>
+        <tr>
+          <th>Title</th>
+          <th>Text</th>
+          <th>MP3 Audio</th>
+        </tr>
+      </tbody>
+    </table>
+      <table id="posts">
+        <colgroup>
+          <col style="width:20%">
+          <col style="width:20%">
+          <col style="width:60%">
+
+        </colgroup>
+
+      </table>
+
+     <br />
+
+    <script src="scripts.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
