@@ -17,7 +17,7 @@ It is very helpful for the blind students or whose eyes are weak can use this ap
 
 ## Instructions
 
-* In AWS Goto Lambda and set up these functions : 
+In AWS Goto Lambda and set up these functions : 
 * getPosts - which gets all the Posts from Database with audio files link stored in S3
 * createNotes - which creates a new post which updates the DB with a new document and calls another lambda function postConvert using SNS
 * postConvert - it converts the text into audio file using Amazon Polly and stores it in S3 and updates the DB
