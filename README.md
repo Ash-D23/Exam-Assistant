@@ -27,3 +27,7 @@ In AWS Goto Lambda and set up these functions :
 * Set up the Frontend which is a simple website with a form to send get and post requests
 * Connect the lambda functions with API Gateway to handle get and post requests 
 * Setup Alexa Skill and connect to alexaExam Lambda Function
+
+![Exam](https://github.com/Ash-D23/Exam-Assistant/blob/master/Screenshots/2019-03-26.png)
+
+Demo : https://drive.google.com/open?id=18Be-U-kXXBgZf0FK7mufKLZz5zeAtjPS
