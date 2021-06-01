@@ -4,7 +4,7 @@
 
 Exam Assistant is an Serverless Web Application which converts text to audio files which can be played through Alexa and can be used by students to generate Audio notes for Exams. It is a text to speech Application which can be used by students for exam preparation to generate audio files of their notes
 
-`Technology used : Alexa, AWS Lambda, DynamoDB, Amazon Polly, Node JS`
+`Technology used : Alexa, AWS Lambda, DynamoDB, Amazon Polly, Node JS React JS`
 
 ### Problem Statement 
 
@@ -28,6 +28,8 @@ In AWS Goto Lambda and set up these functions :
 * Connect the lambda functions with API Gateway to handle get and post requests 
 * Setup Alexa Skill and connect to alexaExam Lambda Function
 
-![Exam](https://github.com/Ash-D23/Exam-Assistant/blob/master/Screenshots/2019-03-26.png)
-
 Demo : https://drive.google.com/open?id=18Be-U-kXXBgZf0FK7mufKLZz5zeAtjPS
+
+A version 2 of the App I made recently with better UI with the help of React JS & Context API where students cn view audio notes in a playlist model and teachers can add notes.
+
+https://github.com/Ash-D23/Exam-Assistant-v2
