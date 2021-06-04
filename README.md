@@ -1,5 +1,8 @@
 # Exam Assistant
 
+Please find the fronend code in this repo:
+https://github.com/Ash-D23/Exam-Assistant-v2
+
 ## Introduction
 
 Exam Assistant is an Serverless Web Application which converts text to audio files which can be played through Alexa and can be used by students to generate Audio notes for Exams. It is a text to speech Application which can be used by students for exam preparation to generate audio files of their notes
